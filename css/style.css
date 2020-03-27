@@ -50,15 +50,19 @@ body {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #AEAEAE;
 }
+
 ::-moz-placeholder { /* Firefox 19+ */
   color: #AEAEAE;
 }
+
 :-ms-input-placeholder { /* IE 10+ */
   color: #AEAEAE;
 }
+
 :-moz-placeholder { /* Firefox 18- */
   color: #AEAEAE;
 }
+
 .search-button {
   background-color: transparent;
   border: none;
@@ -151,6 +155,7 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
+
 .more:after {
   content: '';
   width: 30px;
@@ -295,6 +300,7 @@ body {
   .container {
     max-width: 740px;
   }
+
   .tabs {
     flex-wrap: wrap;
   }
@@ -309,7 +315,12 @@ body {
   }
 
   .tabs-content {
+    display: none;
     margin-bottom: 5%;
+  }
+
+  .visible {
+    display: block;
   }
 
   .text {
